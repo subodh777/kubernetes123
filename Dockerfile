@@ -1,6 +1,6 @@
 FROM nik1234321/niklatest:latest
 MAINTAINER ghadagenikhil4@gmail.com
-RUN sudo apt install -y apache2 \
+RUN apt install -y apache2 \
   zip \
  unzip
  ADD https://www.free-css.com/assets/files/free-css-templates/download/page258/loxury.zip /var/www/html/
