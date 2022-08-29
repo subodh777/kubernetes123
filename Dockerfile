@@ -1,4 +1,4 @@
-FROM nik1234321/niklatest
+FROM nik1234321/niklatest:latest
 MAINTAINER ghadagenikhil4@gmail.com
 RUN apt-get install -y httpd \
   zip \
