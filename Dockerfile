@@ -3,10 +3,10 @@ MAINTAINER ghadagenikhil4@gmail.com
 RUN apt-get install -y httpd \
   zip \
  unzip
- ADD https://www.free-css.com/assets/files/free-css-templates/download/page281/romofyi.zip /var/www/html/
+ ADD https://www.free-css.com/assets/files/free-css-templates/download/page258/loxury.zip
  WORKDIR /var/www/html
- RUN unzip romofyi.zip
- RUN cp -rvf romofyi/* .
- RUN rm romofyi  romofyi.zip
+ RUN unzip loxury.zip
+ RUN cp -rvf loxury/* .
+ RUN rm loxury  loxury.zip
  CMD ["/usr/sbin/httpd", "-D",  "FOREGROUND"]
  EXPOSE 80
